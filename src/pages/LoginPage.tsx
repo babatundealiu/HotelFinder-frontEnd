@@ -1,70 +1,24 @@
 import React from 'react'
+import hero from "../assets/islandHotel.jpeg"
 
-const OnboardingPage:React.FC = () => {
+const Login:React.FC = () => {
   return (
-    <div className='h-[100vh] w-[100%]'>
-        <h3 className=' h-[50px] flex justify-center items-center w-[100%] text-white bg-[#0096FF] font-bold'>ONBOARD YOUR HOTEL</h3>
-        <div className=' p-[10px]'>
-        <div className=' text-xs'>Upload image of your hotel</div>
-        <img className=' h-[100px] w-[100%] mt-1 rounded-sm'/>
-        <h3 className=' text-xs'>Upload images of  different rooms  package in the hotel</h3>
-        <div className=' flex justify-between mt-1'>
-            <img className=' h-[50px] w-[70px] rounded-sm md:w-[400px] lg:w-[400px]'/>
-            <img  className=' h-[50px] w-[70px] rounded-sm'/>
-            <img className=' h-[50px] w-[70px] rounded-sm'/>
-            <img className=' h-[50px] w-[70px] rounded-sm'/>
+    <div className="  w-[100%]  h-[100vh] bg-cover sm:h-[100vh] bg-no-repeat" style={{backgroundImage: `url(${hero})`}}>
+      <div className="w-full h-full flex  justify-center items-center backdrop-brightness-50">
+        <form >
+        <h3 className=" text-2xl font-bold pl-32 pt-10 text-white pb-10 sm:pl-6">Welcome back to<br/> HotelFinder</h3>
+        <input className=" h-[40px] w-[300px] rounded-md ml-6 p-3 sm:w-[250px]" placeholder="Email"/>
+        <br/>
+        <br/>
+        <input className=" h-[40px] w-[300px] rounded-md ml-6 p-3 sm:w-[250px]" placeholder="Password"/>
+        <br/>
+        <br/>
+        <button className=" h-[40px] w-[300px] rounded-md ml-6 bg-[#0096FF] text-white font-semibold sm:w-[250px] sm:ml-10" placeholder="Full-Name">Login</button>
+        <div className=' text-white pt-2 flex justify-end'><u>Forgot Password</u></div>
+        </form>
         </div>
-        <div className=' flex justify-between mt-1'>
-            <div>
-                <span className=' text-xs'>HotelName</span>
-                <br/>
-            <input className=' h-[30px] w-[145px] border rounded-md'/>
-            </div>
-            <div>
-                <span className=' text-xs'>Email</span>
-                <br/>
-            <input className=' h-[30px] w-[145px] border rounded-md'/>
-            </div>
-        </div>
-        <div className=' flex justify-between mt-1'>
-        <div>
-                <span className=' text-xs'>Address</span>
-                <br/>
-            <input className=' h-[30px] w-[145px] border rounded-md'/>
-            </div> 
-            <div>
-                <span className=' text-xs'>Description</span>
-                <br/>
-            <input className=' h-[30px] w-[145px] border rounded-md'/>
-            </div>
-        </div>
-        <h3 className='pt-2 font-semibold'>Cancellation Policy</h3>
-        <div>
-            <div>
-                <span className=' text-xs'>Do you have any cancellation policy?</span>
-                <textarea className=' h-[50px] w-[300px] border mt-1 rounded-md'/>
-            </div>
-            <div>
-                <span className=' text-xs'>Cancellation window</span>
-                <br/>
-                <textarea className=' h-[50px] w-[300px] border mt-1 rounded-md'/>
-            </div>
-        </div>
-        <h3 className='pt-2 font-semibold'>Refund Procedure</h3>
-        <div>
-        <div>
-                <span className=' text-xs'>Do you have any refund procedure?</span>
-                <textarea className=' h-[50px] w-[300px] border mt-1 rounded-md'/>
-            </div>
-            <div>
-                <span className=' text-xs'>Duration of refund (min - max)</span>
-                <textarea className=' h-[50px] w-[300px] border mt-1 rounded-md'/>
-            </div>
-        </div>
-        <button className=' h-[30px] w-[150px] border rounded-md text-white font-semi-bold bg-[#0096FF] ml-20 mt-2'>Submit</button>
-        </div>
-        </div>
+    </div>
   )
 }
 
-export default OnboardingPage
+export default Login
