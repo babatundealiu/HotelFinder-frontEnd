@@ -18,7 +18,7 @@ const Hero = () => {
       </div>
     
     <div className='flex lg:mt-20 flex-row justify-center mt-[200px] sm:mt-[113px] md:mt-[30px] xl:mt-[10px]'>
-      <div className='flex justify-center gap-0 shadow-2xl sm:gap-1 lg:gap-0 md:gap-2 bg-white w-[89%] h-[130px] sm:h-[50px] sm:border sm:w-[314px] md:w-[95%] md:h-[110px] md: rounded-md border-2 border-blue-500 lg:w-[90%] sm:mt-2 xl:mt-28'>
+      <div className='flex justify-center gap-0 shadow-2xl sm:gap-1 lg:gap-0 md:gap-2 bg-white w-[89%] h-[130px] sm:h-[50px] sm:border sm:w-[314px] md:w-[95%] md:h-[110px] md: rounded-md border-2 border-blue-500 lg:w-[90%] sm:mt-2 xl:mt-28 mt-[70px]'>
         <div className='flex flex-col align-middle'>
           <h2 className='text-[#0096FF] mt-10 ml-16 sm:mt-2 sm:font-semibold  sm:text-xs md:mt-2 md:ml-7 lg:ml-14 sm:ml-1'>Check-In</h2>
             <input type="text" placeholder='' className='flex shadow-sm border-black h-[50px] w-[160px] md:w-[100px] md:h-[40px] md:mt-0 md:ml-4 sm:ml-1 border border-b-2 bg-gray-50 rounded-md ml-16 sm:h-5 sm:w-12 sm:mt-0 lg:w-[150px] lg:h-[40px] lg:ml-5 ' data-mdb-format='ddd, dd, mmm, yyyy' />

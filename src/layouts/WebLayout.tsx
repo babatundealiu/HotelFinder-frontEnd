@@ -1,6 +1,6 @@
 import React from 'react'
 import Header from '../components/blocks/Header'
-import { Outlet } from 'react-router-dom'
+import { Outlet, createBrowserRouter } from 'react-router-dom'
 import Hero from '../components/blocks/Hero'
 import Redefines from '../components/blocks/Redefines'
 import Sections from '../components/blocks/Sections'
@@ -12,12 +12,10 @@ const WebLayout:React.FC = () => {
     <div>
         <Header />
         <Hero />
-        {/* <Hero /> */}
-
         <Outlet />
-        <Redefines />
+        {/* <Redefines />
         <Sections />
-        <TopHotels />
+        <TopHotels /> */}
         <Footer />
 
 
