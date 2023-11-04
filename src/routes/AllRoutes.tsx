@@ -19,9 +19,9 @@ const Index = createBrowserRouter([
     path: "/sections",
     element: <Sections />
   },
-  {
-    path: "/register",
-    element:<Register />
-  }
+  // {
+  //   path: "/register",
+  //   element:<Register />
+  // }
 ])
 export default Index
