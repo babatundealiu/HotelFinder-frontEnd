@@ -1,4 +1,6 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
+import Register from '../../pages/Register'
 // import { BiMenuAltRight } from "react-icons/bi";
 
 const Header = () => {
@@ -14,8 +16,11 @@ const Header = () => {
           <span className='ml-3 sm:ml-2'>Contact Us</span>
         </div>
         <div className='flex flex-row gap-5 mr-20 sm:gap-0 sm:flex-col sm:mr-0 sm:hidden md:hidden '>
-        <button className=' flex justify-center items-center p-4 mt-7 h-10 rounded-xl sm:p-1 sm:font-normal sm:text-xs sm:h-3 '>Register</button>
-        <button className=' flex justify-center items-center p-4 mt-7 h-10 rounded-xl sm:p-1 sm:font-normal sm:text-xs sm:h-3 '>Login</button>
+          <Link to={"/register"}>
+          <button className=' flex justify-center items-center p-4 mt-7 bg-slate-50 h-9 rounded-xl sm:p-1 sm:font-normal sm:text-xs sm:h-3 '>Register</button>
+
+          </Link>
+        <button className=' flex justify-center items-center p-4 mt-7 bg-slate-50 h-9 rounded-xl sm:p-1 sm:font-normal sm:text-xs sm:h-3 '>Login</button>
 
         </div>
 
