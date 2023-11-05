@@ -13,9 +13,6 @@ const WebLayout:React.FC = () => {
         <Header />
         <Hero />
         <Outlet />
-        {/* <Redefines />
-        <Sections />
-        <TopHotels /> */}
         <Footer />
 
 
