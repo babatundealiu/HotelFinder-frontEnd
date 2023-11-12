@@ -12,16 +12,17 @@ const Index = createBrowserRouter([
     {
       index: true,
       element: <HomePage />
-    }
-  ]
-  },
+    },
+    
   {
     path: "/sections",
     element: <Sections />
   },
-  // {
-  //   path: "/register",
-  //   element:<Register />
-  // }
+  {
+    path: "/register",
+    element:<Register />
+  }
+  ]
+  }
 ])
 export default Index

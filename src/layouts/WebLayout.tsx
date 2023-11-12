@@ -11,7 +11,7 @@ const WebLayout:React.FC = () => {
   return (
     <div>
         <Header />
-        <Hero />
+        {/* <Hero /> */}
         <Outlet />
         <Footer />
 

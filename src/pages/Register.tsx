@@ -1,11 +1,11 @@
 import React from "react";
-import hero from "../assets/islandHotel.jpeg";
+// import hero from "../assets/islandHotel.jpeg";
 
 const Register: React.FC = () => {
   return (
     <div
       className=" w-[100%] flex justify-center items-center h-[100vh] bg-cover mt-5 relative sm:mt-0"
-      style={{ backgroundImage: `url(${hero})` }}
+      // style={{ backgroundImage: `url(${hero})` }}  
     >
       <div className="w-full h-full flex  justify-center items-center backdrop-brightness-50">
         <form>
@@ -53,6 +53,5 @@ const Register: React.FC = () => {
       </div>
     </div>
   );
-};
-
+}
 export default Register;

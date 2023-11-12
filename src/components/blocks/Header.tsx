@@ -16,7 +16,7 @@ const Header = () => {
           <span className='ml-3 sm:ml-2'>Contact Us</span>
         </div>
         <div className='flex flex-row gap-5 mr-20 sm:gap-0 sm:flex-col sm:mr-0 sm:hidden md:hidden '>
-          <Link to={"/register"}>
+          <Link to="/register">
           <button className=' flex justify-center items-center p-4 mt-7 bg-slate-50 h-9 rounded-xl sm:p-1 sm:font-normal sm:text-xs sm:h-3 '>Register</button>
 
           </Link>

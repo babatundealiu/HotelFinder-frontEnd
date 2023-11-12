@@ -2,7 +2,7 @@ import React from 'react'
 
 const Footer:React.FC = () => {
   return (
-    <div className='sm:p-0 sm:text-xs sm:flex-wrap sm:pt-5 sm:h-28 flex flex-row h-56 justify-evenly text-slate-50 bg-[rgb(0,150,255)] p-12'>
+    <div className='sm:p-0 sm:text-xs sm:pt-5 sm:flex-wrap flex flex-row h-56 justify-between text-slate-50 bg-[rgb(0,150,255)] p-16 pr-20'>
         {/* <h1 className='mr-10'>HotelFinder</h1> */}
         
         <div className='flex flex-col'>
